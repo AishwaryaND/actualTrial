@@ -228,3 +228,157 @@ found 64 vulnerabilities (17 low, 17 moderate, 30 high)
 
  Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:17 GMT+0530 (India Standard Time) | Installing "cordova-plugin-ionic-webview" for ios
 
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:18 GMT+0530 (India Standard Time) | Installing "cordova-plugin-mfp" for ios
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:18 GMT+0530 (India Standard Time) | Plugin dependency "cordova-plugin-device@2.0.2" already fetched, using that version.
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:18 GMT+0530 (India Standard Time) | Dependent plugin "cordova-plugin-device" already installed on ios.
+Plugin dependency "cordova-plugin-dialogs@2.0.1" already fetched, using that version.
+Dependent plugin "cordova-plugin-dialogs" already installed on ios.
+Plugin dependency "cordova-plugin-globalization@1.11.0" already fetched, using that version.
+Dependent plugin "cordova-plugin-globalization" already installed on ios.
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:18 GMT+0530 (India Standard Time) | If you made changes to your AppDelegate.m file, manually merge AppDelegate.m.bak with the AppDelegate.m file that is provided with IBM MobileFirst Platform Foundation.
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:18 GMT+0530 (India Standard Time) | Installing "cordova-plugin-okhttp" for ios
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:18 GMT+0530 (India Standard Time) | Installing "cordova-plugin-splashscreen" for ios
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:19 GMT+0530 (India Standard Time) | Installing "cordova-plugin-statusbar" for ios
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:19 GMT+0530 (India Standard Time) | Installing "cordova-plugin-whitelist" for ios
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:19 GMT+0530 (India Standard Time) | Plugin 'cordova-plugin-whitelist' found in config.xml... Migrating it to package.json
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:19 GMT+0530 (India Standard Time) | Plugin 'cordova-plugin-device' found in config.xml... Migrating it to package.json
+Plugin 'cordova-plugin-statusbar' found in config.xml... Migrating it to package.json
+Plugin 'cordova-plugin-splashscreen' found in config.xml... Migrating it to package.json
+Plugin 'cordova-plugin-ionic-webview' found in config.xml... Migrating it to package.json
+Plugin 'cordova-plugin-ionic-keyboard' found in config.xml... Migrating it to package.json
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:20 GMT+0530 (India Standard Time) | > ionic-app-scripts build --target cordova --platform ios
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:22 GMT+0530 (India Standard Time) | [11:56:22]  ionic-app-scripts 3.2.4 
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:22 GMT+0530 (India Standard Time) | [11:56:22]  build dev started ... 
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:22 GMT+0530 (India Standard Time) | [11:56:22]  clean started ... 
+[11:56:22]  clean finished in 3 ms 
+[11:56:22]  copy started ... 
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:22 GMT+0530 (India Standard Time) | [11:56:22]  deeplinks started ... 
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:22 GMT+0530 (India Standard Time) | [11:56:22]  deeplinks finished in 23 ms 
+[11:56:22]  transpile started ... 
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:25 GMT+0530 (India Standard Time) | [11:56:25]  transpile finished in 2.78 s 
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:25 GMT+0530 (India Standard Time) | [11:56:25]  preprocess started ... 
+[11:56:25]  preprocess finished in 1 ms 
+[11:56:25]  webpack started ... 
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:25 GMT+0530 (India Standard Time) | [11:56:25]  copy finished in 2.97 s 
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:28 GMT+0530 (India Standard Time) | [11:56:28]  webpack finished in 2.87 s 
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:28 GMT+0530 (India Standard Time) | [11:56:28]  sass started ... 
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:29 GMT+0530 (India Standard Time) | [11:56:29]  sass finished in 1.12 s 
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:29 GMT+0530 (India Standard Time) | [11:56:29]  postprocess started ... 
+[11:56:29]  postprocess finished in 14 ms 
+[11:56:29]  lint started ... 
+[11:56:29]  build dev finished in 6.95 s 
+
+ Error | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:31 GMT+0530 (India Standard Time) | [33m[11:56:31]  tslint: src/pages/home/home.ts, line: 1 [39m
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:152951:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:152908:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:152948:5)
+    at Socket.<anonymous> (http://localhost:1212/dist/renderer.dev.js:19161:67)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:32 GMT+0530 (India Standard Time) | [33m[11:56:31]  tslint: src/pages/home/home.ts, line: 2 [39m
+[33m[11:56:31]  tslint: src/app/app.component.ts, line: 27 [39m
+[33m[11:56:31]  tslint: src/app/app.component.ts, line: 27 [39m
+[33m[11:56:31]  tslint: src/app/app.component.ts, line: 27 [39m
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:152951:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:152908:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:152948:5)
+    at Socket.<anonymous> (http://localhost:1212/dist/renderer.dev.js:19161:67)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:32 GMT+0530 (India Standard Time) |             'NgZone' is declared but its value is never read. 
+
+[2m       L1:  [22mimport { Component, Renderer, [41mN[49m[41mg[49m[41mZ[49m[41mo[49m[41mn[49m[41me[49m } from "@angular/core";
+[2m       L2:  [22mimport { NavController, ModalController } from "ionic-angular";
+
+            'ModalController' is declared but its value is never read. 
+
+[2m       L1:  [22mimport { Component, Renderer, NgZone } from "@angular/core";
+[2m       L2:  [22mimport { NavController, [41mM[49m[41mo[49m[41md[49m[41ma[49m[41ml[49m[41mC[49m[41mo[49m[41mn[49m[41mt[49m[41mr[49m[41mo[49m[41ml[49m[41ml[49m[41me[49m[41mr[49m } from "ionic-angular";
+[2m       L3:  [22mimport { DataStore } from "../../app/dataStore";
+
+            Property 'renderer' is declared but its value is never read. 
+
+[2m      L27:  [22mar: StatusBar, public splashScreen: SplashScreen, private [41mr[49m[41me[49m[41mn[49m[41md[49m[41me[49m[41mr[49m[41me[49m[41mr[49m: Renderer, private cdr: ChangeDetectorRef
+[2m      L28:  [22m    renderer.listenGlobal('document', 'mfpjsloaded', () => {
+
+            Property 'cdr' is declared but its value is never read. 
+
+[2m      L27:  [22mreen: SplashScreen, private renderer: Renderer, private [41mc[49m[41md[49m[41mr[49m: ChangeDetectorRef,private liveUpdateService:Liv
+[2m      L28:  [22m    renderer.listenGlobal('document', 'mfpjsloaded', () => {
+
+            Property 'liveUpdateService' is declared but its value is never read. 
+
+[2m      L27:  [22m, private renderer: Renderer, private cdr: ChangeDetectorRef,private [41ml[49m[41mi[49m[41mv[49m[41me[49m[41mU[49m[41mp[49m[41md[49m[41ma[49m[41mt[49m[41me[49m[41mS[49m[41me[49m[41mr[49m[41mv[49m[41mi[49m[41mc[49m[41me[49m:LiveUpdateProvider) {
+[2m      L28:  [22m    renderer.listenGlobal('document', 'mfpjsloaded', () => {
+
+[11:56:31]  lint finished in 2.51 s 
+> cordova prepare ios
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:33 GMT+0530 (India Standard Time) | Attempting to install In-App feedback analytics plugin
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:34 GMT+0530 (India Standard Time) | > cordova plugin add cordova-plugin-mfp-analytics@latest --save
+
+Success | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:41 GMT+0530 (India Standard Time) | ios-sim installed successfully + ios-sim@9.0.0
+added 53 packages from 41 contributors and audited 282 packages in 6.282s
+found 0 vulnerabilities
+
+
+ Error | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:41 GMT+0530 (India Standard Time) | Error in installing ios sim  npm WARN saveError ENOENT: no such file or directory, open '/Users/aishwaryadodmani/Desktop/app6/ionic/platforms/ios/cordova/package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open '/Users/aishwaryadodmani/Desktop/app6/ionic/platforms/ios/cordova/package.json'
+npm WARN cordova No description
+npm WARN cordova No repository field.
+npm WARN cordova No README data
+npm WARN cordova No license field.
+
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:152951:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:152908:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:152948:5)
+    at http://localhost:1212/dist/renderer.dev.js:19222:75
+    at ChildProcess.exithandler (child_process.js:299:7)
+    at ChildProcess.emit (events.js:203:13)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5) Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:41 GMT+0530 (India Standard Time) | Attempting to create app on server
+Success | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:41 GMT+0530 (India Standard Time) | All done! You are ready to rock and roll
+Success | CreatingAppActions | createNewAppOnServer | Wed Apr 22 2020, 11:56:42 GMT+0530 (India Standard Time) | App created on the server successfully for 'ios' platform
+ Info | ImportExportConfig | exportAppConfiguration | Wed Apr 22 2020, 11:56:42 GMT+0530 (India Standard Time) | Exported project configuration successfully
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:45 GMT+0530 (India Standard Time) | Installing "cordova-plugin-mfp-analytics" for ios
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:45 GMT+0530 (India Standard Time) | Plugin dependency "cordova-plugin-mfp@8.0.2019090917" already fetched, using that version.
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:46 GMT+0530 (India Standard Time) | Dependent plugin "cordova-plugin-mfp" already installed on ios.
+
+ Info | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:46 GMT+0530 (India Standard Time) | Adding cordova-plugin-mfp-analytics to package.json
+
+Success | projectHandler | createIonicProject | Wed Apr 22 2020, 11:56:46 GMT+0530 (India Standard Time) | In-App feedback analytics plugin installed successfully
